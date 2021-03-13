@@ -1,28 +1,32 @@
+########################################################################
 # collatz.py
 # Author David
-
 # user inputs an integer
 # using an if/else statement 
 # The program will tell the user if the number is even or odd
+########################################################################
 
-
-
+########################################################################
 # First number then we check if it is 0 in the while loop
 number = int(input("Please enter a positive integer:"))
 
+########################################################################
 # Test print
 # print(number)  
+########################################################################
 
-
+########################################################################
 # Create a list for the number
 numbers = []
 # users input of number is appended to the list
 numbers.append(int(number))
 
+########################################################################
 # Sanity check
 # Using an if statement 
 # Checks to see if the user has input a positive number
 # If this fails it outputs a message
+########################################################################
 if number <= 0:
     print("No negativity or zeros allowed here")
 else:
@@ -40,8 +44,9 @@ else:
         # Test print
         # print(number)  
 
+########################################################################
 # Prints numbers list with spaces separating   
-# Citation https://www.geeksforgeeks.org/print-lists-in-python-4-different-ways/
+########################################################################
 print(*numbers, sep=' ')
 
     

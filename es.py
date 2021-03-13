@@ -7,9 +7,7 @@
 ### "python es.py C:\Programming\programming2021\pands-problem-sheet\moby-dick.txt"
 ### Author David
 ########################################################################
-### A copy of the Moby Dick text can be found at the following link
-### https://www.gutenberg.org/files/2701/old/moby10b.txt
-########################################################################
+
 
 ########################################################################
 ### import modules
@@ -25,7 +23,7 @@ import re
 filename = sys.argv[1]
 
 ########################################################################
-### Set variables to zero
+### Set global variables to zero
 ########################################################################
 count = 0
 totalCount = 0

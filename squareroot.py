@@ -1,11 +1,13 @@
+########################################################################
 # squareroot.py
 # Author David
-
-# positive floating-point number as input and 
+# Positive floating-point number as input and 
 # outputs an approximation of its square root
+########################################################################
 
-
-# Function from https://www.geeksforgeeks.org/find-root-of-a-number-using-newtons-method/
+########################################################################
+# Newtons Method Function
+########################################################################
 def squareRoot(val):
     # Assuming the sqrt of n as n only  
     x = val    
@@ -27,10 +29,9 @@ def squareRoot(val):
     print("The square root of {} is approx. {}. ".format(val, ans))
     return
 
-
-# https://pynative.com/python-check-user-input-is-number-or-string/
-# Create a function to test users input is a positive floating-point number
-
+########################################################################
+# Error detection function for a positive float 
+########################################################################
 def check_user_input(input):
     try:
         # Convert it into integer 
@@ -41,11 +42,15 @@ def check_user_input(input):
             # Convert it into float
             val = float(input)
             # print(val)
+            ########################################################################
             # Check that the float is positive
+            ########################################################################
             if val <= 0:
                 print("No negative floats allowed")
-            # Go to newtons method function squareRoot()    
             else:
+                ########################################################################
+                # Go to newtons method function squareRoot()   
+                ########################################################################
                 squareRoot(val)
             # Test output            
             # print("Input is a float  number. Number = ", val)
@@ -55,9 +60,15 @@ def check_user_input(input):
 
 # main program
 l = 0.00001
+
+########################################################################
+# Test float number
 # number = 14.5
+########################################################################
 # Request user input
 input1 = input("Please enter a positive floating-point number: ")
 
-#This calls the function
+########################################################################
+# Error detection function for a positive float 
+########################################################################
 check_user_input(input1)
