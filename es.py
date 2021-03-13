@@ -22,6 +22,9 @@ totalCount = 0
 with open(filename, "r") as f:
     for line in f:
         count = len(re.findall("e", line)) 
+        # If you wish to count uppercase and lowercase re.IGNORECASE
+        # can be used instead of line above
+        # count = len(re.findall("e", line, re.IGNORECASE)) 
         # Adding all lowercase e's in string to total count
         totalCount = totalCount + count
         # Test to see totalcount 
