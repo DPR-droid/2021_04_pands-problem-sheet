@@ -3,9 +3,9 @@
 
 # positive floating-point number as input and 
 # outputs an approximation of its square root
+
+
 # Function from https://www.geeksforgeeks.org/find-root-of-a-number-using-newtons-method/
-
-
 def squareRoot(val):
     # Assuming the sqrt of n as n only  
     x = val    
@@ -61,10 +61,3 @@ input1 = input("Please enter a positive floating-point number: ")
 
 #This calls the function
 check_user_input(input1)
-
-
-
-
-
-
-
