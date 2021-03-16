@@ -69,3 +69,12 @@
     Statement automatically takes care of closing the file after reading link https://realpython.com/read-write-files-python/
     Regex findall link https://www.w3schools.com/python/python_regex.asp#findall
 
+
+## Weekly Tasks 08
+### plottask.py
+    This displays a plot of the functions f(x)=x, g(x)=x2 and h(x)=x3 
+    in the range [0, 4] on the one set of axes.
+### Citation 
+    https://numpy.org/doc/stable/reference/generated/numpy.power.html
+    https://www.w3resource.com/graphics/matplotlib/basic/matplotlib-basic-exercise-5.php
+
