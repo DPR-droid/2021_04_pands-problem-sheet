@@ -112,8 +112,27 @@ elif
 
 ## Weekly Tasks 06
 ### [squareroot.py](https://github.com/DPR-droid/pands-problem-sheet/blob/main/squareroot.py)
-The program that takes a positive floating-point number as input and outputs an approximation of its square root
+This script takes a positive floating-point number as input and outputs an approximation of its square root. To achieve a new module was created called mymodules.py. The new module contains two function, checking the users input and the square root of the input using Newton Method.
+
+This script requires the user to have **mymodules.py** located in the same folder as **squareroot.py** before running.  The **mymodules** function is a block of code which only runs when it is called using **check_user_input**. The parameters from the users input  is passed into the function and return the data as a result.
+
+Description of the script
+
+1.	Import the **mymodules** module
+2.	Request the users to input for a **positive floating-point number**
+3.	The parameter from the user is passed into the function called **check_user_input**
+4.	To check that the user has entered a positive floating-point number the try except with handling exception is used. If detected the failure is printed to screen and the program ends
+5.	If the value entered is a positive floating-point number, then it is passed to the Newton Method Function called **sqrt**
+6.	The result is printed to the screen for the user
+
 ### Citation/Reference Material
+Creating a Function
+
+    https://www.w3schools.com/python/python_functions.asp
+Handling Exceptions
+
+    https://www.w3schools.com/python/python_try_except.asp
+    https://docs.python.org/3/tutorial/errors.html
 Function for newtons-method from 
 
     https://www.geeksforgeeks.org/find-root-of-a-number-using-newtons-method/
