@@ -34,7 +34,7 @@ g = np.power(xaxis, 2)
 ### Testing print squared range
 # print(g)
 ### plotting the line 2 points 
-plt.plot(xaxis, g, label = "g(x)=x2")
+plt.plot(xaxis, g, label = "g(x)=x^2" , marker='x')
 ########################################################################
 
 ########################################################################
@@ -43,23 +43,24 @@ h = np.power(xaxis, 3)
 ### Testing print cubed range
 # print(h)
 ### plotting the line 3 points 
-plt.plot(xaxis, h, label = "h(x)=x3")
+plt.plot(xaxis, h, label = "h(x)=x^3", marker='d')
 ########################################################################
 
-#######################################################################
+########################################################################
 ### Settings for plot
 ### Set the y axis label of the current axis.
 plt.xlabel('x - axis')
 ### Set the y axis label of the current axis.
 plt.ylabel('y - axis')
 ### Set a title of the current axes.
-plt.title('Displays Plot for f(x)=x, g(x)=x2 and h(x)=x3')
+plt.title('Displays Plot for f(x)=x, g(x)=x^2 and h(x)=x^3')
 ### show a legend on the plot
 plt.legend()
 
-
+#######################################################################
 ### Output plot to screen
+#######################################################################
 plt.show()
 
-#######################################################################
+
 

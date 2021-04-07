@@ -186,11 +186,25 @@ Regex findall link
 
 ## Weekly Tasks 08
 ### [plottask.py](https://github.com/DPR-droid/pands-problem-sheet/blob/main/plottask.py)
-This displays a plot of the functions f(x)=x, g(x)=x2 and h(x)=x3 
-in the range [0, 4] on the one set of axes.
+The script imports **numpy** module and the **pyplot** package from the **matplotlib** module. Using a numpy array in the range **[0, 4]** three plots on the same axes each of the following functions **f(x)=x, g(x)=x2 and h(x)=x3.** These are output to the screen with legends
+
+**Note: to close the program the user must exit/close the onscreen plot**
+
+Description of the script
+1.	Import two modules **numpy** and **pyplot** package from the **matplotlib** module
+2.	A **numpy** array is created
+3.	For the three functions the **numpy.power** is used and plot created for each.
+4.	The setting for the plot including labels for the x and y axis, plot title.
+5.	The plot legends are created
+6.	The final stage outputs the plot to the screen.
+7.	The program will only close when the on screen plot is exited/closed.
+
 ### Citation/Reference Material
+numpy.power
 
     https://numpy.org/doc/stable/reference/generated/numpy.power.html
+
+How to plot two or more lines on same plot with suitable legends of each line.
 
     https://www.w3resource.com/graphics/matplotlib/basic/matplotlib-basic-exercise-5.php
 
