@@ -56,7 +56,9 @@ plt.ylabel('y - axis')
 plt.title('Displays Plot for f(x)=x, g(x)=x2 and h(x)=x3')
 ### show a legend on the plot
 plt.legend()
-### Display a figure.
+
+
+### Output plot to screen
 plt.show()
 
 #######################################################################
