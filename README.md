@@ -112,6 +112,8 @@ elif
 
 ## Weekly Tasks 06
 ### [squareroot.py](https://github.com/DPR-droid/pands-problem-sheet/blob/main/squareroot.py)
+
+### NOTE: The squareroot.py requires [mymodules.py](https://github.com/DPR-droid/pands-problem-sheet/blob/main/mymodules.py) to run.
 This script takes a positive floating-point number (including int) as input and outputs an approximation of its square root. To achieve a new module was created called mymodules.py. The new module contains two function, checking the users input and the square root of the input using Newton Method.
 
 This script requires the user to have **mymodules.py** located in the same folder as **squareroot.py** before running.  The **mymodules** function is a block of code which only runs when it is called using **check_user_input**. The parameters from the users input  is passed into the function and return the data as a result.
@@ -146,11 +148,23 @@ Function for newtons-method from
 
 ## Weekly Tasks 07
 ### [es.py](https://github.com/DPR-droid/pands-problem-sheet/blob/main/es.py)
-This program that reads in a text file and outputs the number of e's it contains
-The program takes the filename from an argument on the command line.
-"python es.py moby-dick.txt"
+This script takes the input from the command line of a file to be read. To avoid getting an error, the script checks if the file exists and prints an message to the screen if false. The file is then read and uses regex to find all the **e**’s in the file.
+
+**Examples of command line arguments.**
+
+"python es.py **moby-dick.txt**"
+
 The argument can also use path to the file.
-"python es.py C:\Programming\programming2021\pands-problem-sheet\moby-dick.txt"
+
+"python es.py **C:\Programming\programming2021\pands-problem-sheet\moby-dick.txt**"
+
+Description of the script
+1.	Import 3 modules os,sys,re
+2.	The if statement tests if the user has entered the correct command line argument
+3.	The findall() function is used to returns a list containing all matches to **“e”**.
+4.	Using the for loop the to go line by line and count.
+5.	The program ends outputting the totalCount of **“e”**.
+
 
 ### Citation/Reference Material
 A copy of the Moby Dick text can be found at the following link 
