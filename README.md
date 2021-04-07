@@ -6,7 +6,7 @@ In the module of Programming And Scripting a weekly problem is provided to stude
 
 
 ## Weekly Tasks 02
-### [bmi.py](https://github.com/DPR-droid/pands-problem-sheet/blob/main/bmi.py)
+### [bmi.py](https://github.com/DPR-droid/pands-problem-sheet/blob/main/bmi.py) 
 This script calculates the users BMI
 The first iteration of the script the integer had been set to test the calculation for the BMI and its output.  After a few iterations I was satisfied with the output to 2 two decimal places. 
 
@@ -29,7 +29,7 @@ The round function
 
 ## Weekly Tasks 03
 ### [secondstring.py](https://github.com/DPR-droid/pands-problem-sheet/blob/main/secondstring.py)
-The script asks a user to input a string and outputs in reverse order and selecting every second letter.
+The script asks a user to input a string and outputs in reverse order then selects every second character.
 
 The first iteration of the script the input had been set to test output.  Using Python ability to slicing strings, the first iteration reversed the input string, the second iteration slicing was used again to select every second character from the reversed string. It was noted that the string could be slicied using one [] and after some research this was possible.
 
@@ -48,10 +48,37 @@ Slicing notation
 
 ## Weekly Tasks 04
 ### [collatz.py](https://github.com/DPR-droid/pands-problem-sheet/blob/main/collatz.py)
-The program will tell the user if the number is even or odd
-User inputs an integer
-Using an if/else statement
+The script is designed to request a positive integer and at each step calculate the next value by taking the current value and, if it is even, divide it by two, but if it is odd, multiply it by three and add one. With the script ending if the current value is one. 
+
+Description of the script
+
+1.	The user is requested to input a **positive integer**.
+2.	A lists is used to store multiple items in a single variable for output at the end of the script.
+3.	The append() method appends an element the output to the end of the list.
+4.	The script uses an if statement as a sanity check, if the number is zero or negative it outputs a message to the screen and finishes .
+5.	The script then uses a while statement to check if the number is not 1.
+6.	The if statement is used to verify if the number is odd or even and then carries out the required calculation.
+7.	The output of the calculation in part 6 is added to the list using the append method as seen in part 2.
+8.	This is repeated until the output is equal to 1 set in part 5 while statement.
+9.	The final part prints out the list using the parameter **sep**.
+
 ### Citation/Reference Material
+List
+
+    https://www.w3schools.com/python/python_lists.asp
+
+Append
+
+    https://www.w3schools.com/python/ref_list_append.asp
+    
+Python Conditions and If statements
+
+    https://www.w3schools.com/python/python_conditions.asp
+
+While Loops
+
+    https://www.w3schools.com/python/python_while_loops.asp
+
 Prints numbers list with spaces separating
 
     https://www.geeksforgeeks.org/print-lists-in-python-4-different-ways/

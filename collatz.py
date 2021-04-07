@@ -48,5 +48,3 @@ else:
 # Prints numbers list with spaces separating   
 ########################################################################
 print(*numbers, sep=' ')
-
-    
