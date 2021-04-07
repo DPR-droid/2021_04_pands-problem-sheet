@@ -86,11 +86,28 @@ Prints numbers list with spaces separating
 
 ## Weekly Tasks 05
 ### [weekday.py](https://github.com/DPR-droid/pands-problem-sheet/blob/main/weekday.py)
-The program outputs whether or not today is a weekday
+This script does not request user input as the module named datetime to work with dates as date objects. The datetime gets the current day with a number between 0 and 6 and informs the users if it is a weekday or not
+The first iteration was to check the output for specific dates and check that it corresponded to a number between 0 and 6. Using the Python Conditions and If statements from last week’s task I decided to expand on this knowledge to include an Elif. 
+
+Description of the script
+
+1.	Import the datetime module
+2.	Set x to todays date
+3.	The datetime module has a method called strftime() for formatting objects into a readable string
+4.	A strftime() directive of **%w** is set to give the weekday as a number
+5.	This is set as an integer and passed to the if/elif/else
+6.	**If** Zero is past this is a Sunday and prints ** It is the weekend, yay!**
+7.	**elif** Six is past this is a Saturday and prints ** It is the weekend, yay!**
+8.	**else** Any other number the it prints ** Yes, unfortunately today is a weekday.**
+
 ### Citation/Reference Material
-The program that outputs whether or not today is a weekday
+datetime module
 
     https://www.w3schools.com/python/python_datetime.asp
+
+elif 
+
+    https://www.w3schools.com/python/gloss_python_elif.asp
 
 
 ## Weekly Tasks 06
