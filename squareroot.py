@@ -18,7 +18,7 @@ from mymodules import check_user_input
 ########################################################################
 # Test float number
 # number = 14.5
-########################################################################
+########################################################################14.5
 # Request user input
 pfpnumber = input("Please enter a positive floating-point number: ")
 

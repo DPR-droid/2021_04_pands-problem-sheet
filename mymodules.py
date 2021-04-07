@@ -34,28 +34,22 @@ def sqrt(val):
 ########################################################################
 # Error detection function for a positive floating-point number
 ########################################################################
-def check_user_input(input):
-    try:
-        # Convert it into integer 
-        val = int(input)
-        print("Input is an integer. Number = " + str(val))
-    except ValueError:
+def check_user_input(input_str):
+    if input_str.isalpha():
+        print("Please input a positive number")  
+    else:
         try:
-            # Convert it into float
-            val = float(input)
-            # print(val)
-            ########################################################################
-            # Check that the float is positive
-            ########################################################################
+            val = float(input_str)
+                    # print(val)
+                    ########################################################################
+                    # Check that the float is positive
+                    ########################################################################
             if val <= 0:
-                print("No negative floats allowed")
+                print("Zero or negative numbers not accepted")
             else:
                 ########################################################################
                 # Go to newtons method function squareRoot()   
                 ########################################################################
                 sqrt(val)
-            # Test output            
-            # print("Input is a float  number. Number = ", val)
         except ValueError:
-            print("No.. input is not a float. It's a string")
-            
+            print("Please input a positive number")       
