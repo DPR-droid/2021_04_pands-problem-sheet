@@ -29,8 +29,15 @@ The round function
 
 ## Weekly Tasks 03
 ### [secondstring.py](https://github.com/DPR-droid/pands-problem-sheet/blob/main/secondstring.py)
-The program that takes asks a user to input a string and 
-outputs every second letter in reverse order
+The script asks a user to input a string and outputs in reverse order and selecting every second letter.
+
+The first iteration of the script the input had been set to test output.  Using Python ability to slicing strings, the first iteration reversed the input string, the second iteration slicing was used again to select every second character from the reversed string. It was noted that the string could be slicied using one [] and after some research this was possible.
+
+Description of the script
+1.	The user is requested to input a **string**
+2.	Python slice syntax is used to reverse order and select every second letter.
+3.	The output is printed to the screen
+
 ### Citation/Reference
 Slicing notation
 
