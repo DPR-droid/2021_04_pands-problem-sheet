@@ -2,14 +2,21 @@
 
 ## README.md 
 ### Notes
-The README.md file
+In the module of Programming And Scripting a weekly problem is provided to students. The students are to provide a solution that will be worked on throughout the semester. 
 
 
 ## Weekly Tasks 02
 ### [bmi.py](https://github.com/DPR-droid/pands-problem-sheet/blob/main/bmi.py)
-This program calculate the users BMI
-The inputs are the person's height in centimetres and weight in kilograms.
-The output is their weight divided by their height in metres squared.
+This script calculates the users BMI
+The first iteration of the script the integer had been set to test the calculation for the BMI and its output.  After a few iterations I was satisfied with the output to 2 two decimal places. 
+
+Description of the script
+1.	The user is requested to input the required variables of **weight** in kilograms and **height** in centimetres.
+2.	The calculation divides the **weight** by **height** squared.
+3.	This is then divided by 10000.
+4.	The **round()** function returns a floating point number that is a rounded version of the specified number, with the specified number 2 decimals.
+5.	The output is a concatenated string  which includes the calculated BMI
+
 
 ### Citation/Reference
 The following location had the calculation for the BMI
